@@ -35,7 +35,7 @@ To run the Hospital backend on your local machine, follow these steps:
    npm install
    ```
 
-4 Run all the queries on psql terminal which is  written in database.sql:
+4. Run all the queries on psql terminal which is  written in database.sql:
     
 
 5. Start the backend server:
