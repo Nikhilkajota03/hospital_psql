@@ -14,7 +14,7 @@
 
 ## Installation
 
-To run the Employee Management System on your local machine, follow these steps:
+To run the Hospital backend on your local machine, follow these steps:
 
 1. Clone the repository to your local machine:
 
@@ -35,12 +35,38 @@ To run the Employee Management System on your local machine, follow these steps:
    npm install
    ```
 
-4. Start the backend server:
+4 Run all the queries on psql terminal which is  written in database.sql:
+    
+
+5. Start the backend server:
 
    ```bash
    cd ../server
    nodemon app.js
    ```
+
+
+## APIs
+
+Description of all the apis used in the project 
+
+1. Api For getting all the data related to the hospitals:
+
+   ```bash
+   GET    http://localhost:3007/api/v1/students/hospitalDetail  
+   ```
+
+2. Api For Posting the details related to Patients :
+
+   ```bash
+   POST   http://localhost:3007/api/v1/students/addpatient  
+   ```
+
+3. Api For Posting the details related to Psychiatrist :
+
+   ```bash
+   POST   http://localhost:3007/api/v1/students/psychiatrists
+   ```     
 
 
 
