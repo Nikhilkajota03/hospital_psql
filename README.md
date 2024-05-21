@@ -49,6 +49,7 @@ To run the Hospital backend on your local machine, follow these steps:
 ## APIs
 
 Description of all the apis used in the project : https://documenter.getpostman.com/view/29139183/2sA3QniEHk
+Postman collection access json data  : https://drive.google.com/file/d/1FhqWYvmHg04BA5Ye4TEZh2LjzaQV6etG/view?usp=sharing
 
 1. Api For getting all the data related to the hospitals:
 
